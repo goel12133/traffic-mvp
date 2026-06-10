@@ -131,10 +131,12 @@ The framework is extensible: new networks are data, new strategies are functions
 
 ## Running the Simulation
 
+## Setup
+
+Only Python 3.10+ required. There aren't any external dependencies.
+
+## Run
+
 ```bash
-python traffic.py
+python main.py
 ```
-
-Requires Python 3.10+ (uses `itertools.pairwise`).
-
-Output includes route counts, per-route travel times, average travel time, and Price of Anarchy for each experiment.
