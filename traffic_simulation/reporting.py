@@ -76,3 +76,4 @@ def compare_braess_shortcut(network_without_shortcut, network_with_shortcut, num
     difference = round(with_shortcut.average_time - without_shortcut.average_time, 2)
     print(f"Change after adding shortcut: {difference}")
     print()
+    
