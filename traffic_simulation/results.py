@@ -26,5 +26,5 @@ def _average_time(network, route_counts, num_drivers):
 
 
 def price_of_anarchy(selfish_result, optimal_result):
-    return round(selfish_result.average_time / optimal_result.average_time, 
+    return round(selfish_result.average_time / optimal_result.average_time, 3)
                  
